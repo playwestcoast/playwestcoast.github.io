@@ -18,10 +18,23 @@
 			height: 480px;
 			border-radius: 6px;
 			align: center;
+			/*background-image: url(/img/header.jpg);
+			background-position: center; 
+	  		*/
+			opacity: 0.5;
+		}
+		div::after {
+			content: "";
 			background-image: url(/img/header.jpg);
 			background-position: center; 
-	  		opacity: 0.5;
-		}
+  			opacity: 0.5;
+  			top: 0;
+  			left: 0;
+			bottom: 0;
+  			right: 0;
+  			position: absolute;
+  			z-index: -1;   
+}
 		#header img {
 			height: 400px;
 			width: 400px;
