@@ -26,19 +26,11 @@
 				  		*/
 
 		}
-		#header::after {
-			content: "";
-			background-image: url(/img/header.jpg);
-			background-position: center; 
-  			opacity: 0.5;
-  			top: 0;
-  			left: 0;
-			bottom: 0;
-  			right: 0;
-  			position: absolute;
-  			z-index: -1;   
-}
-		#header img {
+		#header #headerimg {
+			height: 480px;
+			opacity: 0.5;
+		}
+		#header #logo {
 			height: 400px;
 			width: 400px;
 			margin: 40px;
@@ -53,7 +45,8 @@
 
 <div id="content">
 <div id="header">
-<img alt="Sierra PlayFest logo" src="/img/logo.png">	
+	<img id="headerimg" alt="tahoe panorama" src="/img/header.jpg">
+	<img id="logo" alt="Sierra PlayFest logo" src="/img/logo.png">	
 </div>
 <!-- BEGIN BODY CONTENT -->
 
