@@ -2,10 +2,12 @@
 	<style>
 		body {
 			background: #4a6a7a;
-			padding:40px;
 			font-family: "Trebuchet MS", verdana, arial, san-serif;
 		}
-		#content {
+		#content-outer {
+			padding: 40px;
+		}
+		#content-inner {
 			background: white;
 			margin: auto;
 			padding: 60px;
@@ -16,6 +18,7 @@
 		}
 		#header {
 			height: 480px;
+			width: auto;
 			display: block;
 			position: relative;
 			border-radius: 6px;
@@ -31,7 +34,8 @@
 			width: 400px;
 			margin: 40px;
 			opacity: 1;
-			top: 480px;
+			top: -480px;
+			position: relative;
 		}
 	</style>
 </head>
@@ -42,8 +46,8 @@
 	<img id="headerimg" alt="tahoe panorama" src="/img/header.jpg">
 	<img id="logo" alt="Sierra PlayFest logo" src="/img/logo.png">	
 </div>
-
-<div id="content">
+<div id="content-outer">
+<div id="content-inner">
 
 <!-- BEGIN BODY CONTENT -->
 
@@ -142,5 +146,6 @@
 <div>&nbsp;</div>
 	
 	<!-- END BODY CONTENT -->
+	</div>
 	</div>
 </body>
