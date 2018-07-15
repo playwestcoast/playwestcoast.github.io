@@ -35,13 +35,7 @@
 		#header {
 			width: auto;
 			display: block;
-			position: relative;
-			border-radius: 6px;
 			text-align: center;
-			background: white;
-			max-width: 1375px;
-    			overflow: hidden;
-    			height: 440px;
 		}
 		#header #headerimg {
 			height: 480px;
@@ -51,10 +45,10 @@
 		#header #logo {
 			height: 400px;
 			width: 400px;
-			margin: 40px;
-			opacity: 1;
-			top: -500px;
-			position: relative;
+			float: none;
+		}
+		#header h1 {
+			display:none;
 		}
 		#content-inner img {
 			display: block;
