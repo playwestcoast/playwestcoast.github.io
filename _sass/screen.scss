@@ -6,6 +6,17 @@
 		}
 		#content-outer {
 			padding: 30px;
+			
+			a {
+				color: #ffffff;
+			}
+			.main-menu {
+				float: right;
+			}
+			.site-name {
+				font-size: 2rem;
+			}
+			
 		}
 		#content-inner {
 			background: white;
