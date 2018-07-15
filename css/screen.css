@@ -15,6 +15,15 @@
 			color: #3a3a3a;
 			border-radius: 6px;
 		}
+		#content-outer a {
+			color: #ffffff;
+		}
+		#content-outer .main-menu {
+			float: right;
+		}
+		#content-outer .site-name {
+			font-size: 2rem;
+		}
 		#header {
 			width: auto;
 			display: block;
