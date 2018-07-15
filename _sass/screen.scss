@@ -6,13 +6,15 @@
 		}
 		#content-outer {
 			padding: 30px;
+			.main-menu, .site-name {
+				a {
+					color: #ffffff;
+				}
+				a:visited {
+					color: #dddddd;
+				}
+			}
 			
-			a {
-				color: #ffffff;
-			}
-			a:visited {
-				color: #dddddd;
-			}
 			.main-menu {
 				float: right;
 			}
