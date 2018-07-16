@@ -7,11 +7,7 @@
 		#content-outer {
 			padding: 30px;
 		}
-		#top-bar {
-			max-width: 800px;
-    			padding: 0px 60px 0px 60px;
-  			margin-bottom: 58px;
-	    		margin-top: -38px;
+		#content-outer {
 			
 			.main-menu, .site-name {
 				a {
@@ -23,11 +19,10 @@
 			}
 			
 			.main-menu {
-				text-align: right;
-				//float: right;
+				float: right;
 			}
 			.site-name {
-				float: left;
+				//float: left;
 				font-size: 2rem;
 				line-height: 0rem;
 			}
