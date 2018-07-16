@@ -20,8 +20,13 @@
 			
 			.main-menu {
 				float: right;
+				padding-right: calc(30px - 5%);
+   				top: -30px;
+    				position: relative;
 			}
 			.site-name {
+				padding-left: calc(30px - 5%);
+
 				//float: left;
 				font-size: 2rem;
 				line-height: 0rem;
