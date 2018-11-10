@@ -1,3 +1,5 @@
 name: PlayWest
 title: PlayWest
 keywords: Boardgames, nature, tahoe, gaming, gamers, event, Bay Area, San Francisco, Oakland # not used by seo tag
+plugins:
+  - jekyll-redirect-from
