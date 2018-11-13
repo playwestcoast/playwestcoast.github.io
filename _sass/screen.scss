@@ -51,10 +51,13 @@
 			opacity: 0.38;
 			max-width: 1375px;
 		}
+		#logo {
+			float: none;
+			
+		}
 		#header #logo {
 			height: 400px;
 			width: 400px;
-			float: none;
 			display: inline;
 			margin-top: -80px;
 			padding: 0px;
