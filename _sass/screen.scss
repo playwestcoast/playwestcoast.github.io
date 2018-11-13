@@ -51,16 +51,14 @@
 			opacity: 0.38;
 			max-width: 1375px;
 		}
-		#logo {
-			float: none;
-			
-		}
+
 		#header #logo {
 			height: 400px;
 			width: 400px;
 			display: inline;
 			margin-top: -80px;
 			padding: 0px;
+			float: none;
 		}
 		#header h1 {
 			display:none;
@@ -72,6 +70,9 @@
 			
 			&.right {
 				float: right;
+			}
+			&#logo {
+				float: none;
 			}
 			
 		}
